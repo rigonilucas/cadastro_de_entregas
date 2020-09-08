@@ -12,4 +12,4 @@ app.use(cors());
 app.use(express.json());
 app.use(rotas);
 
-app.listen(4444);
+app.listen(process.env.PORT || 4444);
